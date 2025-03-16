@@ -333,9 +333,8 @@ section.home {
     font-size: 1.4rem;
     padding: 0 .5rem;
     border-left: 2px solid var(--dark-green);
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent for blur effect */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Safari Support */
+    background-color: rgba(125, 118, 126, 0.5);
+    backdrop-filter: blur(8px);
     color: var(--white-color);
 }
 /* destination section ends here */
