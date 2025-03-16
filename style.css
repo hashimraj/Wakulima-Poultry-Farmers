@@ -220,8 +220,8 @@ section.home {
     background: #02636e;
 }
 
-/* travel section starts here */
-.travel .container {
+/* wak-services section starts here */
+.wak-services .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -230,40 +230,40 @@ section.home {
     padding: 5rem 0;
 }
 
-.travel .container .box {
+.wak-services .container .box {
     padding: 0 1rem;
     text-align: center;
     max-width: 30rem;
 }
 
-.travel .container .box img {
+.wak-services .container .box img {
     height: 10rem;
 }
 
-.travel .container .box h4 {
+.wak-services .container .box h4 {
     font-size: 1.2rem;
     margin: 1rem 0;
     margin-top: 2rem;
     font-weight: 600;
 }
 
-.travel .container .box p {
+.wak-services .container .box p {
     color: #666;
 }
-/* travel section ends here */
+/* wak-services section ends here */
 
 /* destination section starts here */
-.destinations {
+.products {
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
-.destinations .container {
+.products .container {
     width: 100%;
 }
 
-.destinations .container .container-box {
+.products .container .container-box {
     width: 100%;
     display: flex;
     align-items: center;
@@ -271,30 +271,30 @@ section.home {
     gap: 1rem;
 }
 
-.destinations .container .container-box .heading {
+.products .container .container-box .heading {
     max-width: 30rem;
 }
 
-.destinations .container .container-box .content {
+.products .container .container-box .content {
     max-width: 35rem;
 }
 
-.destinations .container .container-box .content p {
+.products .container .container-box .content p {
     line-height: 1.7;
     color: #666;
     margin-bottom: 1rem;
 }
 
-.destinations .container .container-box .content a {
+.products .container .container-box .content a {
     color: var(--green-color);
     font-weight: 600;
 }
 
-.destinations .container .container-box .content a i {
+.products .container .container-box .content a i {
     margin-left: .5rem;
 }
 
-.destinations .container .container-box .content a:hover i {
+.products .container .container-box .content a:hover i {
     margin-left: .1rem;
 }
 
@@ -331,6 +331,10 @@ section.home {
 
 .gallery .box .text h2 {
     font-size: 1.4rem;
+    padding: 0 .5rem;
+    border-left: 2px solid var(--dark-green);
+    background-color: transparent;
+    backdrop-filter: blur(50px);
     color: var(--white-color);
 }
 /* destination section ends here */
@@ -517,7 +521,7 @@ section.home {
     section {
         padding: 0 2rem;
     }
-    .travel .container {
+    .wak-services .container {
         display: flex;
         flex-wrap: wrap;
         flex: 1 1 calc(25% - 10px);
@@ -534,11 +538,11 @@ section.home {
         gap: 2rem;
     }
 
-    .travel .container .box {
+    .wak-services .container .box {
         flex: 1 1 calc(50% - 2rem);
     }
 
-    .destinations .container .container-box {
+    .products .container .container-box {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -610,17 +614,17 @@ section.home {
         padding: 2rem;
     }
 
-    .travel .container {
+    .wak-services .container {
         flex-direction: column;
         padding: 4rem 0;
         gap: 4rem;
     }
 
-    .travel .container .box img{
+    .wak-services .container .box img{
         height: 6rem;
     }
 
-    .destinations .container .container-box .content {
+    .products .container .container-box .content {
         font-size: .8rem;
     }
 
